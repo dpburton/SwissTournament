@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED1021221D10992D00ACF759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021211D10992D00ACF759 /* AppDelegate.swift */; };
+		ED1021241D10992D00ACF759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021231D10992D00ACF759 /* ViewController.swift */; };
+		ED1021271D10992D00ACF759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1021251D10992D00ACF759 /* Main.storyboard */; };
+		ED10212A1D10992D00ACF759 /* SwissTournament.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED1021281D10992D00ACF759 /* SwissTournament.xcdatamodeld */; };
+		ED10212C1D10992D00ACF759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED10212B1D10992D00ACF759 /* Assets.xcassets */; };
+		ED10212F1D10992D00ACF759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED10212D1D10992D00ACF759 /* LaunchScreen.storyboard */; };
+		ED10213A1D10992D00ACF759 /* SwissTournamentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021391D10992D00ACF759 /* SwissTournamentTests.swift */; };
+		ED1021451D10992D00ACF759 /* SwissTournamentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021441D10992D00ACF759 /* SwissTournamentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED1021361D10992D00ACF759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1021161D10992D00ACF759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED10211D1D10992D00ACF759;
+			remoteInfo = SwissTournament;
+		};
+		ED1021411D10992D00ACF759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1021161D10992D00ACF759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED10211D1D10992D00ACF759;
+			remoteInfo = SwissTournament;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED10211E1D10992D00ACF759 /* SwissTournament.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwissTournament.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1021211D10992D00ACF759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED1021231D10992D00ACF759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED1021261D10992D00ACF759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED1021291D10992D00ACF759 /* SwissTournament.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwissTournament.xcdatamodel; sourceTree = "<group>"; };
+		ED10212B1D10992D00ACF759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED10212E1D10992D00ACF759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED1021301D10992D00ACF759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1021351D10992D00ACF759 /* SwissTournamentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissTournamentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1021391D10992D00ACF759 /* SwissTournamentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissTournamentTests.swift; sourceTree = "<group>"; };
+		ED10213B1D10992D00ACF759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1021401D10992D00ACF759 /* SwissTournamentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissTournamentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1021441D10992D00ACF759 /* SwissTournamentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissTournamentUITests.swift; sourceTree = "<group>"; };
+		ED1021461D10992D00ACF759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED10211B1D10992D00ACF759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1021321D10992D00ACF759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED10213D1D10992D00ACF759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1021151D10992D00ACF759 = {
+			isa = PBXGroup;
+			children = (
+				ED1021201D10992D00ACF759 /* SwissTournament */,
+				ED1021381D10992D00ACF759 /* SwissTournamentTests */,
+				ED1021431D10992D00ACF759 /* SwissTournamentUITests */,
+				ED10211F1D10992D00ACF759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED10211F1D10992D00ACF759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED10211E1D10992D00ACF759 /* SwissTournament.app */,
+				ED1021351D10992D00ACF759 /* SwissTournamentTests.xctest */,
+				ED1021401D10992D00ACF759 /* SwissTournamentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1021201D10992D00ACF759 /* SwissTournament */ = {
+			isa = PBXGroup;
+			children = (
+				ED1021211D10992D00ACF759 /* AppDelegate.swift */,
+				ED1021231D10992D00ACF759 /* ViewController.swift */,
+				ED1021251D10992D00ACF759 /* Main.storyboard */,
+				ED10212B1D10992D00ACF759 /* Assets.xcassets */,
+				ED10212D1D10992D00ACF759 /* LaunchScreen.storyboard */,
+				ED1021301D10992D00ACF759 /* Info.plist */,
+				ED1021281D10992D00ACF759 /* SwissTournament.xcdatamodeld */,
+			);
+			path = SwissTournament;
+			sourceTree = "<group>";
+		};
+		ED1021381D10992D00ACF759 /* SwissTournamentTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1021391D10992D00ACF759 /* SwissTournamentTests.swift */,
+				ED10213B1D10992D00ACF759 /* Info.plist */,
+			);
+			path = SwissTournamentTests;
+			sourceTree = "<group>";
+		};
+		ED1021431D10992D00ACF759 /* SwissTournamentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1021441D10992D00ACF759 /* SwissTournamentUITests.swift */,
+				ED1021461D10992D00ACF759 /* Info.plist */,
+			);
+			path = SwissTournamentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED10211D1D10992D00ACF759 /* SwissTournament */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1021491D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournament" */;
+			buildPhases = (
+				ED10211A1D10992D00ACF759 /* Sources */,
+				ED10211B1D10992D00ACF759 /* Frameworks */,
+				ED10211C1D10992D00ACF759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwissTournament;
+			productName = SwissTournament;
+			productReference = ED10211E1D10992D00ACF759 /* SwissTournament.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED1021341D10992D00ACF759 /* SwissTournamentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED10214C1D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournamentTests" */;
+			buildPhases = (
+				ED1021311D10992D00ACF759 /* Sources */,
+				ED1021321D10992D00ACF759 /* Frameworks */,
+				ED1021331D10992D00ACF759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1021371D10992D00ACF759 /* PBXTargetDependency */,
+			);
+			name = SwissTournamentTests;
+			productName = SwissTournamentTests;
+			productReference = ED1021351D10992D00ACF759 /* SwissTournamentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED10213F1D10992D00ACF759 /* SwissTournamentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED10214F1D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournamentUITests" */;
+			buildPhases = (
+				ED10213C1D10992D00ACF759 /* Sources */,
+				ED10213D1D10992D00ACF759 /* Frameworks */,
+				ED10213E1D10992D00ACF759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1021421D10992D00ACF759 /* PBXTargetDependency */,
+			);
+			name = SwissTournamentUITests;
+			productName = SwissTournamentUITests;
+			productReference = ED1021401D10992D00ACF759 /* SwissTournamentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1021161D10992D00ACF759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Daniel Burton";
+				TargetAttributes = {
+					ED10211D1D10992D00ACF759 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GW6ZCEZYJF;
+						DevelopmentTeamName = "Daniel Burton";
+						ProvisioningStyle = Automatic;
+					};
+					ED1021341D10992D00ACF759 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GW6ZCEZYJF;
+						DevelopmentTeamName = "Daniel Burton";
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED10211D1D10992D00ACF759;
+					};
+					ED10213F1D10992D00ACF759 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GW6ZCEZYJF;
+						DevelopmentTeamName = "Daniel Burton";
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED10211D1D10992D00ACF759;
+					};
+				};
+			};
+			buildConfigurationList = ED1021191D10992D00ACF759 /* Build configuration list for PBXProject "SwissTournament" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1021151D10992D00ACF759;
+			productRefGroup = ED10211F1D10992D00ACF759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED10211D1D10992D00ACF759 /* SwissTournament */,
+				ED1021341D10992D00ACF759 /* SwissTournamentTests */,
+				ED10213F1D10992D00ACF759 /* SwissTournamentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED10211C1D10992D00ACF759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED10212F1D10992D00ACF759 /* LaunchScreen.storyboard in Resources */,
+				ED10212C1D10992D00ACF759 /* Assets.xcassets in Resources */,
+				ED1021271D10992D00ACF759 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1021331D10992D00ACF759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED10213E1D10992D00ACF759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED10211A1D10992D00ACF759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1021241D10992D00ACF759 /* ViewController.swift in Sources */,
+				ED1021221D10992D00ACF759 /* AppDelegate.swift in Sources */,
+				ED10212A1D10992D00ACF759 /* SwissTournament.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1021311D10992D00ACF759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED10213A1D10992D00ACF759 /* SwissTournamentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED10213C1D10992D00ACF759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1021451D10992D00ACF759 /* SwissTournamentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED1021371D10992D00ACF759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED10211D1D10992D00ACF759 /* SwissTournament */;
+			targetProxy = ED1021361D10992D00ACF759 /* PBXContainerItemProxy */;
+		};
+		ED1021421D10992D00ACF759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED10211D1D10992D00ACF759 /* SwissTournament */;
+			targetProxy = ED1021411D10992D00ACF759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED1021251D10992D00ACF759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED1021261D10992D00ACF759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED10212D1D10992D00ACF759 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED10212E1D10992D00ACF759 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED1021471D10992D00ACF759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED1021481D10992D00ACF759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED10214A1D10992D00ACF759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwissTournament/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xactware.SwissTournament;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED10214B1D10992D00ACF759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwissTournament/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xactware.SwissTournament;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED10214D1D10992D00ACF759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwissTournamentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xactware.SwissTournamentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwissTournament.app/SwissTournament";
+			};
+			name = Debug;
+		};
+		ED10214E1D10992D00ACF759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwissTournamentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xactware.SwissTournamentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwissTournament.app/SwissTournament";
+			};
+			name = Release;
+		};
+		ED1021501D10992D00ACF759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwissTournamentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xactware.SwissTournamentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwissTournament;
+			};
+			name = Debug;
+		};
+		ED1021511D10992D00ACF759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwissTournamentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xactware.SwissTournamentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwissTournament;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1021191D10992D00ACF759 /* Build configuration list for PBXProject "SwissTournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1021471D10992D00ACF759 /* Debug */,
+				ED1021481D10992D00ACF759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1021491D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournament" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED10214A1D10992D00ACF759 /* Debug */,
+				ED10214B1D10992D00ACF759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED10214C1D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournamentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED10214D1D10992D00ACF759 /* Debug */,
+				ED10214E1D10992D00ACF759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED10214F1D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournamentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1021501D10992D00ACF759 /* Debug */,
+				ED1021511D10992D00ACF759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED1021281D10992D00ACF759 /* SwissTournament.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED1021291D10992D00ACF759 /* SwissTournament.xcdatamodel */,
+			);
+			currentVersion = ED1021291D10992D00ACF759 /* SwissTournament.xcdatamodel */;
+			path = SwissTournament.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED1021161D10992D00ACF759 /* Project object */;
+}
