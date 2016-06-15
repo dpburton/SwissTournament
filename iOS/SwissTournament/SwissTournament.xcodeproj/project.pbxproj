@@ -17,6 +17,8 @@
 		ED1021451D10992D00ACF759 /* SwissTournamentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021441D10992D00ACF759 /* SwissTournamentUITests.swift */; };
 		ED1021541D109DFC00ACF759 /* RatingsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021521D109DFC00ACF759 /* RatingsCalculator.swift */; };
 		ED1021551D109DFC00ACF759 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1021531D109DFC00ACF759 /* Player.swift */; };
+		ED4447D61D11E2BF003CB146 /* TournamentListTableViewSouce.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4447D51D11E2BF003CB146 /* TournamentListTableViewSouce.swift */; };
+		ED8A8D941D11BAE200C5B502 /* TournamentTableViewSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A8D931D11BAE200C5B502 /* TournamentTableViewSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		ED1021461D10992D00ACF759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED1021521D109DFC00ACF759 /* RatingsCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsCalculator.swift; sourceTree = "<group>"; };
 		ED1021531D109DFC00ACF759 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ED4447D51D11E2BF003CB146 /* TournamentListTableViewSouce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentListTableViewSouce.swift; sourceTree = "<group>"; };
+		ED8A8D931D11BAE200C5B502 /* TournamentTableViewSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentTableViewSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				ED10212D1D10992D00ACF759 /* LaunchScreen.storyboard */,
 				ED1021301D10992D00ACF759 /* Info.plist */,
 				ED1021281D10992D00ACF759 /* SwissTournament.xcdatamodeld */,
+				ED8A8D931D11BAE200C5B502 /* TournamentTableViewSource.swift */,
+				ED4447D51D11E2BF003CB146 /* TournamentListTableViewSouce.swift */,
 			);
 			path = SwissTournament;
 			sourceTree = "<group>";
@@ -274,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED4447D61D11E2BF003CB146 /* TournamentListTableViewSouce.swift in Sources */,
 				ED1021541D109DFC00ACF759 /* RatingsCalculator.swift in Sources */,
+				ED8A8D941D11BAE200C5B502 /* TournamentTableViewSource.swift in Sources */,
 				ED1021241D10992D00ACF759 /* ViewController.swift in Sources */,
 				ED1021221D10992D00ACF759 /* AppDelegate.swift in Sources */,
 				ED1021551D109DFC00ACF759 /* Player.swift in Sources */,
@@ -515,6 +523,7 @@
 				ED10214B1D10992D00ACF759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED10214C1D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournamentTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				ED10214E1D10992D00ACF759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED10214F1D10992D00ACF759 /* Build configuration list for PBXNativeTarget "SwissTournamentUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +541,7 @@
 				ED1021511D10992D00ACF759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

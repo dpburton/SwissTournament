@@ -58,7 +58,7 @@ class RatingsCalculator: NSObject {
     }
     
     /*
-     Calculate a first rating estimate for each unrated player for whom Step 1 gives N = 0. For these players, use the “special” rating formula (see Section 4.1), letting R0 be the initialized rating. However, for only this step in the computation, set the number of effective games for these players to 1 (this is done to properly “center” the ratings when most or all of the players are previously unrated).
+     Calculate a first rating estimate for each unrated player for whom Step 1 gives N = 0. For these players, use the “special” rating formula (see Section 4.1), letting R0 be the initialized rating. However, for only this step in the computation, set the number of effective games for these players to 1 (this is done to properly “center” the ratings when most or all of the players are previously unrated). 801-753-5550
      • If an opponent of the unrated player has a pre-event rating, use this rating in the rating formula.
      • If an opponent of the unrated player is also unrated, then use the initialized rating from Step 1.
      If the resulting rating from Step 3 for the unrated player is less than 100, then change the rating to 100.
